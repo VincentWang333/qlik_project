@@ -33,6 +33,7 @@ If you want to test the API, I have created a few test cases for this project, s
 python3 manage.py test
 ```
 You will see the result and detailed of the failed cases if there is any
+<img src="test_screenshot.png">
 ## API Documentation
 ```
 GET messages/ -> return the message list
