@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  backend_api:
+    container_name: qlik_project
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /app/qlik_project/
+    ports:
+      - 8000:8000
